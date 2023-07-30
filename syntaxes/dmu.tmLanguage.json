@@ -1,0 +1,96 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Doll Markup",
+	"patterns": [
+		{
+			"include": "#keySymbols"
+		},
+		{
+			"include": "#stringsDoubleQuoted"
+		},
+		{
+			"include": "#stringsSingleQuoted"
+		},
+		{
+			"include": "#commentsSingle"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#boolean"
+		},
+		{
+			"include": "#squareBrackets"
+		}
+	],
+	"repository": {
+		"keySymbols": {
+			"patterns": [
+				{
+					"name": "entity.name.dmu",
+					"match": "=>|\\|"
+				}
+			]
+		},
+		"stringsDoubleQuoted": {
+			"name": "string.quoted.double.dmu",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.dmu",
+					"match": "\\\\."
+				}
+			]
+		},
+		"stringsSingleQuoted": {
+			"name": "string.quoted.double.dmu",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.dmu",
+					"match": "\\\\."
+				}
+			]
+		},
+		"commentsSingle": {
+			"name": "comment.line.double-slash.dmu",
+			"patterns": [
+				{
+					"name": "comment.line.double-slash.dmu",
+					"match": "\/\/(.*)"
+				}
+			]
+		},
+		"numbers": {
+			"name": "constant.numeric.dmu",
+			"patterns": [
+				{
+					"name": "constant.numeric.dmu",
+					"match": "[0-9]+"
+				}
+			]
+		},
+		"boolean": {
+			"name": "constant.language.dmu",
+			"patterns": [
+				{
+					"name": "constant.language.dmu",
+					"match": "true|false"
+				}
+			]
+		},
+		"squareBrackets": {
+			"name": "markup.list.dmu",
+			"patterns": [
+				{
+					"name": "markup.list.dmu",
+					"match": "\\[|\\]"
+				}
+			]
+		}
+	},
+	"scopeName": "source.dmu"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "language-dollmarkup",
+  "icon": "images/icon/icon.png",
+  "displayName": "Doll Markup",
+  "description": "A language extension for the Doll Markup languge.",
+  "publisher": "angeldollface",
+  "author": {
+    "name": "angeldollface",
+    "email": "youreccentricity@outlook.com"
+  },
+  "scripts": {
+    "build": "vsce package"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angeldollface/language-dollmarkup/issues",
+    "email": "serayuzgur@gmail.com"
+  },
+  "homepage": "https://github.com/angeldollface/language-dollmarkup",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angeldollface/language-dollmarkup"
+  },
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "dmu",
+        "aliases": ["Doll Markup", "dmu"],
+        "extensions": [".dmu"],
+        "configuration": "./config/language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "dmu",
+        "scopeName": "source.dmu",
+        "path": "./syntaxes/dmu.tmLanguage.json"
+      }
+    ],
+    "devDependencies": {
+      "vsce": "^8.1.0"
+    }
+  }
+}

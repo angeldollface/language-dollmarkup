@@ -2,7 +2,7 @@
   "name": "language-dollmarkup",
   "icon": "images/icon/icon.png",
   "displayName": "Doll Markup",
-  "description": "A language extension for the Doll Markup languge.",
+  "description": "A language extension for the Doll Markup language for VS Code.",
   "publisher": "angeldollface",
   "author": {
     "name": "angeldollface",

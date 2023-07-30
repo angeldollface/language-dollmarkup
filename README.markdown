@@ -6,7 +6,7 @@
 
 ![Node CI](https://github.com/angeldollface/language-dollmarkup/actions/workflows/node.yml/badge.svg)
 
-***A language extension for the Doll Markup language. :nail_care: :lipstick:***
+***A language extension for the Doll Markup language for VS Code. :nail_care: :lipstick:***
 
 ## ABOUT :books:
 
@@ -57,7 +57,7 @@ npm install
 - 4.) Build the source code into a VSIX file:
 
 ```bash
-npm build
+npm run build
 ```
 
 - 5.) This should produce a VSIX bundle called `language-dollmarkup-0.1.0.vsix` in the `language-dollmarkup` directory.

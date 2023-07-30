@@ -32,8 +32,13 @@
     "languages": [
       {
         "id": "dmu",
-        "aliases": ["Doll Markup", "dmu"],
-        "extensions": [".dmu"],
+        "aliases": [
+          "Doll Markup",
+          "dmu"
+        ],
+        "extensions": [
+          ".dmu"
+        ],
         "configuration": "./config/language-configuration.json"
       }
     ],
@@ -43,9 +48,9 @@
         "scopeName": "source.dmu",
         "path": "./syntaxes/dmu.tmLanguage.json"
       }
-    ],
-    "devDependencies": {
-      "vsce": "^8.1.0"
-    }
+    ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.20.0"
   }
 }

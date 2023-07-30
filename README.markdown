@@ -83,5 +83,5 @@ After you have installed the extension, open VS Code, and enable the "Doll Marku
 
 ## NOTE :scroll:
 
-- *Gluhny :iphone: :lock: :crab:* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*
+- *VS Code Doll Markup Language Extension :nail_care: :lipstick:* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*
 - Licensed under the MIT license.
